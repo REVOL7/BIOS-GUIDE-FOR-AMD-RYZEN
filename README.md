@@ -29,5 +29,5 @@ Some demanding games, optimized for multi-core usage will do better with SMT ena
 
 PSS support, allows the operating system to use PSS (Performance Supported States) and related ACPI objects to control the power and performance of the processor.
 
-PSS Support should give you better performances if you are using *Core Performance Boost* and PBO to OC your CPU. If you have a manual static OC it might not be the case.
+PSS Support should give you better performances if you are using *Core Performance Boost* and PBO. If you have a manual static OC it might not be the case.
 

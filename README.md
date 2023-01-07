@@ -19,4 +19,15 @@ List of relevant BIOS settings aiming for real-time response on AMD Ryzen system
  
 SMT Control (Simultaneous Multithreading or Hyperthreading) allows the CPU to execute multiple threads concurrently, each physical core appears as two logical cores to the operating system, and each logical core can execute its own thread. Using multiple execution threads per core requires resource sharing and is a possible source of inconsistent system response.
 
-Some demanding games, optimized for multi-core usage will do better with SMT enabled but most competitve games don't benefit from SMT as it comes with a latency penalty so disable it if you have 6+ cores. Note that disabling SMT will give you lower power consumption and temperatures which gives you more headroom to overclock and will allow your CPU to achieve higher boost clocks.
+Some demanding games, optimized for multi-core usage will do better with SMT enabled but most competitve games don't benefit from SMT as it comes with a latency penalty so disable it if you have 6+ cores. Note that disabling SMT will give you lower power consumption and temperatures which gives you more headroom to OC and will allow your CPU to achieve higher boost clocks.
+
+**PSS Support**
+
+- Auto
+- *Enable**
+- Disable
+
+"PSS Support" option may allow you to enable or disable the use of PSS (Performance Supported States) and related ACPI objects on your processor. If you enable PSS support, the operating system will be able to use PSS and related ACPI objects to control the power and performance of the processor. If you disable PSS support, the operating system will not have access to these features.
+
+PSS Support should give you better perfs if you are using PBO to OC your CPU. If you have a manual static OC it might not be the case.
+

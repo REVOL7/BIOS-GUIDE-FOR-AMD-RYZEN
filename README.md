@@ -24,7 +24,7 @@ Some demanding games, optimized for multi-core usage will do better with SMT ena
 **PSS Support**
 
 - Auto
-- **Enable**
+- **Enable***
 - Disable
 
 "PSS Support" option may allow you to enable or disable the use of PSS (Performance Supported States) and related ACPI objects on your processor. If you enable PSS support, the operating system will be able to use PSS and related ACPI objects to control the power and performance of the processor. If you disable PSS support, the operating system will not have access to these features.

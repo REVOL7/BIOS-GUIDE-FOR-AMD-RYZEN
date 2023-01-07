@@ -29,7 +29,7 @@ Some demanding games, optimized for multi-core usage will do better with SMT ena
 
 PSS support, allows the operating system to use PSS (Performance Supported States) and related ACPI objects to control the power and performance of the processor.
 
-PSS Support should give you better performances if you are using *Core Performance Boost* and PBO. If you have a manual static OC it might not be the case.
+PSS Support should give you better performances if you are using *Core Performance Boost*. If you have a manual static OC it might not be the case.
 
 **Core Performance Boost** 
 
@@ -48,6 +48,6 @@ It should be on Auto if you don't have a static OC. I personnaly don't recommend
 - Disable 
 
 The Global C-States Control controls IO based C-state generation and DF Cstates, including core processor C-States.
-Disabling this feature means that the CPU cores can only be in C0 (active) or C1 state because the C1 state cannot be disabled. A CPU core will be in C1 state if the core is halted by the OS. If you have a low latency or extremely low jitter use case, then consider disabling DF C-states as described in this Guide. AMD strongly recommends not disabling Global C-states except for debugging.
+Disabling this feature means that the CPU cores can only be in C0 (active) or C1 state because the C1 state cannot be disabled. A CPU core will be in C1 state if the core is halted by the OS. If you have a low latency or extremely low jitter use case, then consider disabling DF C-states as described in this guide. AMD strongly recommends not disabling Global C-states except for debugging.
 
 If you are using *Core Performance Boost*, disabling this option comes with a performance penalty. You might want to disable this feature if you are using a static OC. This setting alone can have an important impact on the system's performance, make your own tests and conclusions.

@@ -13,7 +13,7 @@ List of relevant BIOS settings aiming for real-time response on AMD Ryzen system
  **SMT Control**
  
  - Auto 
- - **"Enable"**
+ - **Enable***
  - Disable
  
 SMT Control (Simultaneous Multithreading or Hyperthreading) allows the CPU to execute multiple threads concurrently, each physical core appears as two logical cores to the operating system, and each logical core can execute its own thread. Using multiple execution threads per core requires resource sharing and is a possible source of inconsistent system response.

@@ -27,7 +27,7 @@ Some demanding games, optimized for multi-core usage will do better with SMT ena
 - **Enable***
 - Disable
 
-"PSS Support" option may allow you to enable or disable the use of PSS (Performance Supported States) and related ACPI objects on your processor. If you enable PSS support, the operating system will be able to use PSS and related ACPI objects to control the power and performance of the processor. If you disable PSS support, the operating system will not have access to these features.
+PSS support, allows the operating system to use PSS (Performance Supported States) and related ACPI objects to control the power and performance of the processor.
 
-PSS Support should give you better perfs if you are using PBO to OC your CPU. If you have a manual static OC it might not be the case.
+PSS Support should give you better performances if you are using *Core Performance Boost* and PBO to OC your CPU. If you have a manual static OC it might not be the case.
 
